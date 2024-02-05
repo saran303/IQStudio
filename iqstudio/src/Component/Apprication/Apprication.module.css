@@ -1,0 +1,123 @@
+.wrapper{
+    height: 626px;
+    top: 3585px;
+    left: 154px;
+    border-radius: 14px;
+
+}
+.headWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    h3{
+        width: 374px;;
+        height: 154px;
+        top: 3585px;
+        left: 155px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 77px;
+        text-align: left;
+    }
+}
+.imgDiv{
+    display: flex;
+    gap: 20px;
+    img{
+        width: 90.61px;
+        height: 90.61px;
+        cursor: pointer;
+    }
+}
+.cardWrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 359px;
+    height: 368px;
+    left: 146px;
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 10px;
+    padding: 30px;
+    img{
+        width: 101px;
+        height: 101px;
+    }
+    h5{
+        width: 215px;
+        height: 24px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    h6{
+        width: 80px;
+        height: 24px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    p{
+        width: 293px;
+        height: 69px;
+        opacity: 0.3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: left;
+        Opacity: 30%;
+        margin-top: 30px;
+    }
+}
+.middleCard{
+    width: 359px;
+    height: 377px;
+    left: 146px;
+    border: 1px solid rgb(52, 52, 52);
+    background-color: rgb(50, 49, 49);
+    border-radius: 10px;
+    padding: 30px;
+    img{
+        width: 101px;
+        height: 101px;
+    }
+    h5{
+        width: 215px;
+        height: 24px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    h6{
+        width: 80px;
+        height: 24px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    p{
+        width: 293px;
+        height: 69px;
+        opacity: 0.3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: left;
+        Opacity: 30%;
+        margin-top: 30px
+    }
+}

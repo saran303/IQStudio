@@ -1,0 +1,105 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    display: flex;
+    width: 448px;
+    height: 77px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    margin: 30px;
+}
+.gridContainer{
+    /* width: 1140px; */
+    height: 1228px;
+    border-radius: 14px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 358px 358px 358px;
+    display: grid;
+    gap: 30px;
+    overflow: hidden;
+    justify-content: center;
+}
+.item1{
+    background-image: url('../../assets/grid1.png');
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 342px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}
+.item2{
+    background-image: url('../../assets/grid2.png');
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 342px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}
+.item3{
+    background-image: url('../../assets/grid3.png');
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 342px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}
+.item4{
+    background-image: url('../../assets/grid4.png');
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 342px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}
+.item5{
+    background-image: url('../../assets/grid5.png');
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 342px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}
+.item6{
+    background-image: url('../../assets/grid6.png');
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 342px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}

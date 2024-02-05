@@ -1,0 +1,49 @@
+.introWrapper{
+    /* width: 1132px; */
+    height: 174px;
+    display: flex;
+    margin: 150px;
+    justify-content: center;
+    align-items: baseline;
+}
+.introHeader{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.verticalLine{
+    width: 206px;
+    border: 1px;
+    transform: rotate(90deg);
+    border:1px solid #6A6A6A;
+}
+.description{
+    width: 475px;
+    height: 155px;
+    h6{
+        width: 249px;
+        height: 52px;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    p{
+        width: 475px;
+        height: 87px;
+        top: 1152px;
+        left: 807px;
+        opacity: 30%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+}

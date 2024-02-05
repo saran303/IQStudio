@@ -1,0 +1,8 @@
+.wrapper{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+.button{
+    cursor: pointer;
+}

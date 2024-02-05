@@ -1,0 +1,32 @@
+.wrapper{
+    width: 1440px;
+    height: 367px;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.navFooter{
+    height: 74px;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.socmediaPic{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.footerCon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}

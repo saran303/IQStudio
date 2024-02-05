@@ -1,0 +1,113 @@
+.wrapper{
+    /* width: 1200px; */
+    height: 551px;
+    left: 146px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 437px;
+    height: 77px;
+    left: 512px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.cardWrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 359px;
+    height: 377px;
+    left: 146px;
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 10px;
+    padding: 30px;
+    img{
+        width: 101px;
+        height: 101px;
+    }
+    h6{
+        width: 215px;
+        height: 24px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    p{
+        width: 293px;
+        height: 69px;
+        opacity: 0.3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: left;
+        Opacity: 30%
+    }
+    button{
+        width: 121px;
+        height: 43px;
+        border-radius: 23.5px;
+        background-color: var(--color-lightyellow);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0px;
+        cursor: pointer;
+    }
+}
+.middleCard{
+    width: 359px;
+    height: 377px;
+    left: 146px;
+    border: 1px solid rgb(52, 52, 52);
+    background-color: rgb(50, 49, 49);
+    border-radius: 10px;
+    padding: 30px;
+    img{
+        width: 101px;
+        height: 101px;
+    }
+    h6{
+        width: 215px;
+        height: 24px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    p{
+        width: 293px;
+        height: 69px;
+        opacity: 0.3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: left;
+        Opacity: 30%
+    }
+    button{
+        width: 121px;
+        height: 43px;
+        border-radius: 23.5px;
+        background-color: var(--color-lightyellow);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0px;
+        cursor: pointer;
+    }
+}

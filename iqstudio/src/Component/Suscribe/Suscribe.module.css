@@ -1,0 +1,49 @@
+.wrapper{
+    width: 1440px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    gap: 10px;
+    background-color: rgb(78, 78, 78);
+    margin-bottom: 50px;
+}
+.head1{
+    width: 659px;
+    height: 75px;
+    /* font-family: Helvetica Now Display; */
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 75px;
+    text-align: center;
+}
+.form{
+    width: 686px;
+    height: 53px;
+}
+.fname{
+    width: 276px;
+    height: 53px;
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px;
+    border: 0px;
+}
+.email{
+    width: 276px;
+    height: 53px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 0px;
+}
+.sendBtn{
+    width: 116px;
+    height: 53px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: var(--color-lightyellow);
+    border: 0px;
+    cursor: pointer;
+}
